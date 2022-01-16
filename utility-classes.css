@@ -1,0 +1,87 @@
+:root {
+  --dark-cyan: #4d96a9;
+  --lght-cyan: #8fe3f9;
+  --dark-purple: #855fb1;
+  --light-purple: #d9b8ff;
+  --black: #28283d;
+  --grey: #87879d;
+  --white: #fafafa;
+  margin: 0px;
+}
+
+html {
+  font-size: 18px;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+body {
+  box-sizing: border-box;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+
+
+.tborder {
+  border: 2px solid red;
+}
+
+
+
+@media (max-width: 760px) {
+  .gap {
+    display: none;
+  }
+}
+
+
+
+
+/*buttons*/
+button {
+    border-radius: 1.6111rem;
+    height: 3.2222rem;
+    font-family: inherit;
+    font-weight: 900;
+    font-size: .8889rem;
+    line-height: 1.4444rem
+}
+
+/*code for heading numbers*/
+.sec-number {
+  align-items: center;
+  margin-top: 6.1111rem;
+  margin-bottom: 64px;
+}
+.sec-number .line {
+  border-left: 0.0556rem solid #87879d;
+  height: 4.6667rem;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.sec-number .circle {
+  text-align: center;
+  border: 0.0556rem solid rgba(135, 135, 157, 0.25);
+  border-radius: 1.6111rem;
+  width: 3.1111rem;
+  height: 3.1111rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle span {
+  align-items: center;
+}

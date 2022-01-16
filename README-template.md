@@ -61,9 +61,9 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+unless placed in a div, content below an SVG will cover the SVG when there is no avaialbe space.
 
-To see how you can add code snippets, see below:
+The grid-gap property does not accept the minmax() function, but an empty grid column can be used to create a working gap whic resizes to a minimum and maximum.
 
 ```html
 <h1>Some HTML code I'm proud of</h1>

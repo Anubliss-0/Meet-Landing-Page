@@ -1,0 +1,108 @@
+body {
+  width: 100vw;
+}
+
+/*typography settings*/
+h1 {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color:#87879D;
+  ;
+}
+
+/*the hero and sign up section*/
+svg:nth-of-type(1) {
+  display: block;
+  margin: 4.4444rem 0px 3.3889rem;
+}
+
+header {
+  min-height: 19.8889rem;
+  width: 100vw;
+  justify-content: center;
+}
+
+.mobile-hero {
+  display: none;
+}
+
+.mobile-hero img {
+  width: 100%;
+  height: auto;
+}
+
+.splash-text {
+  flex: 0 0.5 540px;
+  margin: 0 88px;
+  text-align: center;
+}
+
+.right img {
+  position: relative;
+  top: 50px;
+}
+
+@media (max-width: 920px) {
+  .left {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .mobile-hero {
+    display: block;
+  }
+  header {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .splash-text {
+    flex: 0 0.5 0px;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+  }
+}
+
+/*main section*/
+
+main {
+  align-items: center;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: minmax(39px, 165px) minmax(163.9998px, 280px) minmax(
+      11px,
+      30px
+    ) minmax(163.9998px, 280px) minmax(11px, 30px) minmax(163.9998px, 280px) minmax(
+      11px,
+      30px
+    ) minmax(163.9998px, 280px) minmax(35px, 165px);
+  grid-template-rows: minmax(214px, 242px);
+  height: 242px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.photos div img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 760px) {
+  .photos {
+    grid-template-columns: 151px 151px;
+    grid-template-rows: 143px 143px;
+  }
+}
