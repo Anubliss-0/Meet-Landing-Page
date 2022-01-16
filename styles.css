@@ -7,14 +7,22 @@ h1 {
   font-weight: 900;
   font-size: 64px;
   line-height: 64px;
+  color: var(--black);
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 44px;
+  color: var(--black);
+  max-width: 24.7222rem;
 }
 
 p {
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
-  color:#87879D;
-  ;
+  color: #87879d;
 }
 
 /*the hero and sign up section*/
@@ -33,16 +41,16 @@ header {
   display: none;
   justify-content: center;
   overflow: hidden;
+  width: 100vw;
 }
 
 .mobile-hero img {
-  width: 110%;
-  height: auto;
+  width: 110vw;
 }
 
 .splash-text {
   flex: 0 0.5 540px;
-  margin: 0 88px;
+  margin: 0 70px;
   text-align: center;
 }
 
@@ -60,16 +68,15 @@ header {
   }
   .mobile-hero {
     display: flex;
-    width: 100%;
-    overflow: hidden;
-    align-self: center;
   }
   header {
     flex-direction: column;
     justify-content: start;
   }
   .splash-text {
-    flex: 0 0.5 25.3889rem;
+    flex: 0;
+    max-width: 450px;
+    align-self: center;
   }
   h1 {
     font-weight: 900;
@@ -79,6 +86,10 @@ header {
 }
 
 /*main section*/
+.sec1 {
+  margin-top: 6.1111rem;
+  margin-bottom: 3.5556rem;
+}
 
 main {
   align-items: center;
@@ -86,17 +97,15 @@ main {
 
 .photos {
   display: grid;
-  grid-template-columns: minmax(39px, 165px) minmax(163.9998px, 280px) minmax(
+  grid-template-columns:
+    minmax(39px, 165px) minmax(163.9998px, 280px) minmax(11px, 30px)
+    minmax(163.9998px, 280px) minmax(11px, 30px) minmax(163.9998px, 280px) minmax(
       11px,
       30px
-    ) minmax(163.9998px, 280px) minmax(11px, 30px) minmax(163.9998px, 280px) minmax(
-      11px,
-      30px
-    ) minmax(163.9998px, 280px) minmax(35px, 165px);
-  grid-template-rows: minmax(214px, 242px);
-  height: 242px;
+    )
+    minmax(163.9998px, 280px) minmax(35px, 165px);
+
   width: 100%;
-  box-sizing: border-box;
 }
 
 .photos div img {
@@ -105,9 +114,42 @@ main {
   border-radius: 8px;
 }
 
+.main-text {
+  text-align: center;
+  align-items: center;
+  margin-top: 2.6667rem;
+  max-width: 30rem;
+}
+
+.main-text span {
+  font-weight: 900;
+  font-size: 0.8889rem;
+  line-height: 1.4444rem;
+  letter-spacing: 0.2222rem;
+  text-transform: uppercase;
+  color: #4D96A9;
+}
+
 @media (max-width: 760px) {
   .photos {
     grid-template-columns: 151px 151px;
     grid-template-rows: 143px 143px;
   }
+}
+
+/*footer*/
+.sec2 {
+  position: relative;
+  bottom: -28px;
+  z-index: 2;
+  margin-top: 4rem;
+}
+
+footer {
+  height: 308px;
+  width: 100%;
+  background: linear-gradient(rgba(77, 150, 169, 0.8), rgba(77, 150, 169, 0.8)),
+    url(assets/desktop/image-footer.jpg) no-repeat 50%;
+  background-size: auto, auto;
+  background-size: cover;
 }

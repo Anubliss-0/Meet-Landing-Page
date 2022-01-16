@@ -65,6 +65,8 @@ unless placed in a div, content below an SVG will cover the SVG when there is no
 
 The grid-gap property does not accept the minmax() function, but an empty grid column can be used to create a working gap whic resizes to a minimum and maximum.
 
+
+
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```

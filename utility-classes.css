@@ -62,8 +62,7 @@ button {
 /*code for heading numbers*/
 .sec-number {
   align-items: center;
-  margin-top: 6.1111rem;
-  margin-bottom: 64px;
+  
 }
 .sec-number .line {
   border-left: 0.0556rem solid #87879d;
@@ -80,6 +79,7 @@ button {
   height: 3.1111rem;
   align-items: center;
   justify-content: center;
+  background: var(--white);
 }
 
 .circle span {
