@@ -31,10 +31,12 @@ header {
 
 .mobile-hero {
   display: none;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .mobile-hero img {
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 
@@ -57,14 +59,17 @@ header {
     display: none;
   }
   .mobile-hero {
-    display: block;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    align-self: center;
   }
   header {
     flex-direction: column;
     justify-content: start;
   }
   .splash-text {
-    flex: 0 0.5 0px;
+    flex: 0 0.5 25.3889rem;
   }
   h1 {
     font-weight: 900;
