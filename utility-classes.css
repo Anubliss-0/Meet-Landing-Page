@@ -30,6 +30,7 @@ body {
   padding: 0;
   border: 0;
   font-family: "Red Hat Display", sans-serif;
+  background-color: var(--white);
 }
 
 
@@ -56,7 +57,12 @@ button {
     font-family: inherit;
     font-weight: 900;
     font-size: .8889rem;
-    line-height: 1.4444rem
+    line-height: 1.4444rem;
+    border: none;
+}
+
+.fade {
+  mix-blend-mode: overlay;
 }
 
 /*code for heading numbers*/
