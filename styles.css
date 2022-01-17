@@ -5,24 +5,24 @@ body {
 /*typography settings*/
 h1 {
   font-weight: 900;
-  font-size: 64px;
-  line-height: 64px;
+  font-size: 3.5556rem;
+  line-height: 3.5556rem;
   color: var(--black);
 }
 
 h2 {
   font-weight: 900;
-  font-size: 40px;
-  line-height: 44px;
+  font-size: 2.2222rem;
+  line-height: 2.4444rem;
   color: var(--black);
   max-width: 24.7222rem;
 }
 
 p {
   font-weight: 500;
-  font-size: 18px;
-  line-height: 26px;
-  color: #87879d;
+  font-size: 1rem;
+  line-height: 1.4444rem;
+  color: #51515f;
 }
 
 /*buttons*/
@@ -97,14 +97,14 @@ header {
 }
 
 .splash-text {
-  flex: 0 0.5 540px;
-  margin: 0 70px;
+  flex: 0 0.5 30rem;
+  margin: 0 3.8889rem;
   text-align: center;
 }
 
 .right img {
   position: relative;
-  top: 50px;
+  top: 2.7778rem;
 }
 
 @media (max-width: 920px) {
@@ -123,13 +123,13 @@ header {
   }
   .splash-text {
     flex: 0;
-    max-width: 450px;
+    max-width: 25rem;
     align-self: center;
   }
   h1 {
     font-weight: 900;
-    font-size: 48px;
-    line-height: 48px;
+    font-size: 2.6667rem;
+    line-height: 2.6667rem;
     margin-top: 4rem;
   }
 
